@@ -1,0 +1,27 @@
+@function map-deep-get($map, $keys...) {
+  @each $key in $keys {
+      $map: map-get($map, $key);
+  }
+  @return $map;
+}
+
+@mixin font($family, $color, $size, $line-height: 1em, $weight: normal, $style: normal) {
+  font-family: $family;
+  color: $color;
+  font-size: $size;
+  line-height: $line-height;
+  font-weight: $weight;
+  font-style: $style;
+}
+
+@mixin transition($duration, $timing-function, $delay, $properties...) {
+  transition-property: $properties;
+  transition-timing-function: $timing-function;
+  transition-duration: $duration;
+  transition-delay: $delay;
+}
+
+@mixin full-width {
+  width: 100%;
+  max-width: $max-width;
+}
