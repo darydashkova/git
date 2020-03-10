@@ -23,6 +23,10 @@
         "linebreak-style": 0,
         "require-jsdoc": 0,
         "max-len": 0,
-        "no-unused-vars": 0
+        "no-unused-vars": 0,
+        "spaced-comment": 0,
+        "indent": 0,
+        "no-invalid-this": 0,
+        "space-before-function-paren": 0
     }
 }

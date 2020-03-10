@@ -29,7 +29,6 @@
   "license": "MIT",
   "devDependencies": {
     "@types/jquery": "^3.3.33",
-    "@types/select2": "^4.0.48",
     "@typescript-eslint/eslint-plugin": "^2.21.0",
     "@typescript-eslint/parser": "^2.21.0",
     "autoprefixer": "^9.6.1",
