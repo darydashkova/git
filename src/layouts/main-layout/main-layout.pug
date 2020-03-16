@@ -16,8 +16,9 @@ html(lang='ru')
       main
         div(class=['page', layout.pageClass])
           block content
-          block tractor
-          block company
+          include ../../partials/company/company.pug
 
       - if (layout.needFooter)
         include ../footer/footer.pug
+        
+        

@@ -10,7 +10,7 @@
   nav.header__items {
     display: flex;
     justify-content: space-between;
-    height: 5%;
+    height: 40px;
     position: absolute;
     width: 40%;
     margin: -1.35% 0% 0% 15%;
@@ -25,6 +25,7 @@
     }
     a.nav__item:hover {
       border-bottom: 1px solid grey;
+  
     }
   }
   .image-loop {
@@ -35,7 +36,7 @@
     &__item {
       width: 15px;
       height: 27%;
-      margin-top: 1.5%;
+   
     }
   }
   .container-lang {
@@ -56,7 +57,7 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    margin: -3.5% 0% 0% 75%;
+    margin: -2% 0% 0% 75%;
     .city {
       font-size: 13px;
       color: grey;
