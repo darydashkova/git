@@ -29,12 +29,12 @@
     }
   }
   &__image {
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     margin: auto;
     .img-company {
-      height: 300px;
+      height: 400px;
     }
     .img-company:nth-child(2n) {
       margin-top: 15%;
@@ -45,6 +45,7 @@
     .list-img {
       width: 12%;
       height: 20%;
+      margin-top: 250px;
     }
   }
 }

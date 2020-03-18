@@ -38,26 +38,3 @@
     }
   }
 }
-.tractor-img {
-  background-image: url("./src/assets/img/tractop.png");
-  width: 100%;
-  height: 400px;
-  background-size: 100% 100%;
-  .container-tractor {
-    width: 90%;
-    margin: auto;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    height: 100%;
-    &__text {
-      width: 25%;
-      margin: 15% auto 0% auto;
-      font-size: 35px;
-      .little-text-tractor {
-        width: 70%;
-        font-size: 20px;
-      }
-    }
-  }
-}
