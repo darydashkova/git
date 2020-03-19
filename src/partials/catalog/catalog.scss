@@ -1,0 +1,56 @@
+.catalog {
+  width: 100%;
+  height: 900px;
+  border: 1px solid red;
+  &__item {
+    width: 50%;
+    font-size: 15px;
+    margin: 4% 0% 0% 15%;
+    color: grey;
+  }
+  &__item-2 {
+    font-size: 27px;
+    width: 50%;
+    margin-left: 15%;
+    margin-top: 20px;
+  }
+  .catalog__table {
+    width: 70%;
+    height: 100%;
+    margin: 40px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    .otdel {
+      width: 100%;
+      height: 25%;
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: nowrap;
+      color: green;
+      .catalog-img {
+        width: 40px;
+        height: 40px;
+      }
+      &__item {
+        width: 150px;
+        font-size: 20px;
+      }
+      &__item,
+      .catalog-img {
+        margin: 90px 20px 0px 20px;
+      }
+      .link-catalog {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        .link-catalog__text {
+            font-size: 25px;
+        }
+      }
+    }
+    .otdel:hover {
+      background-color: lightgrey;
+    }
+  }
+}

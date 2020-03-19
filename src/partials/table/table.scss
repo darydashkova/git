@@ -1,11 +1,113 @@
-.table{
-    background-color: lightgray;
-    width: 100%;
-    height: 700px;
-    .partners{
-
+.table {
+  width: 100%;
+  height: 800px;
+  background-color: #fafafa;
+  margin-top: -180px;
+  .big-list{
+    margin-top: -300px;
+    margin-right: 20%;
+    width: 250px;
+    height: 400px;
+    z-index: -2;
+  }
+  .partners {
+    padding-top: 200px;
+    margin-left: 15%;
+    color: grey;
+    z-index: 1;
+  }
+  .text-partners {
+    font-size: 27px;
+    padding-top: 20px;
+    margin-left: 15%;
+    width: 300px;
+    z-index: 1;
+  }
+  .table__item {
+    width: 60%;
+    height: 300px;
+    margin: 5% auto 0% auto;
+    z-index: 1;
+    .table-img {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      &__item {
+        width: 20%;
+        height: 50%;
+        border: 1px solid lightgrey;
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        filter: grayscale(100%);
+        filter: gray; /* IE 6-9 */
+        .container-img-table {
+          width: 80px;
+          height: 70px;
+          margin: auto;
+          .img-link {
+            width: 90%;
+            height: 90%;
+            margin: 45% auto 0% auto;
+          }
+          .link_2 {
+            height: 40%;
+            margin: 80% auto 0% auto;
+          }
+        }
+      }
+      &__item:hover {
+        -webkit-filter: none;
+        -moz-filter: none;
+        -ms-filter: none;
+        -o-filter: none;
+        filter: none;
+        filter: none; /* IE 6-9 */
+      }
     }
-    .text-partners{
-
+    .table-img:nth-child(2) {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      margin-top: -150px;
     }
+  }
+  .slider-container {
+    width: 200px;
+    height: 50px;
+    margin: 0px auto 100px auto;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    color: grey;
+    &__back {
+      width: 30px;
+      height: 30px;
+      background-color: lightgrey;
+      border-radius: 50%;
+      margin-top: -65px;
+    }
+    &__button-text-change,
+    &__button-text {
+      width: 30px;
+      height: 20px;
+      margin-top: -60px;
+    }
+    &__next {
+      width: 30px;
+      height: 30px;
+      background-color: lightgrey;
+      border-radius: 50%;
+      margin-top: -65px;
+    }
+    &__next:hover,
+    &__back:hover {
+      background-color: green;
+      color: white;
+    }
+  }
+}
+.none {
+  display: none;
 }
