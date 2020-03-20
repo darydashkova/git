@@ -1,7 +1,6 @@
 .catalog {
   width: 100%;
   height: 900px;
-  border: 1px solid red;
   &__item {
     width: 50%;
     font-size: 15px;
@@ -14,42 +13,59 @@
     margin-left: 15%;
     margin-top: 20px;
   }
-  .catalog__table {
+  &__table {
     width: 70%;
     height: 100%;
     margin: 40px auto 0px auto;
     display: flex;
     flex-direction: column;
-    .otdel {
+    &-section {
       width: 100%;
       height: 25%;
       display: flex;
       align-items: flex-start;
       flex-wrap: nowrap;
       color: green;
-      .catalog-img {
+      &-img {
         width: 40px;
         height: 40px;
+        margin-top: 90px;
       }
-      &__item {
+      .flexbox-table {
+      }
+      &-item {
         width: 150px;
         font-size: 20px;
       }
-      &__item,
+      &-item,
       .catalog-img {
         margin: 90px 20px 0px 20px;
       }
-      .link-catalog {
-        width: 100px;
-        height: 100px;
+      &-link,&-link-modif {
+        height: 150px;
         display: flex;
-        flex-direction: column;
-        .link-catalog__text {
-            font-size: 25px;
+        align-items: flex-start;
+        flex-wrap: wrap;
+          margin: -200px 0px 0px 40%;
+        &-text {
+          margin-left: 50px;
+          font-size: 23px;
+          color: grey; 
+        }
+        &-text:hover {
+          color: green;
+          padding-bottom: 5px;
+          border-bottom: 1px solid green;
         }
       }
+      &-link-modif{
+        width: 600px;
+      }
+      &-link{
+        width: 800px;
+      }
     }
-    .otdel:hover {
+    .catalog__table-section:hover {
       background-color: lightgrey;
     }
   }

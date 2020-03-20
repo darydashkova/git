@@ -3,36 +3,36 @@
   height: 800px;
   background-color: #fafafa;
   margin-top: -180px;
-  .big-list{
+  &__big-list{
     margin-top: -300px;
     margin-right: 20%;
-    width: 250px;
+    width: 300px;
     height: 400px;
     z-index: -2;
   }
-  .partners {
+  &__partners {
     padding-top: 200px;
     margin-left: 15%;
     color: grey;
     z-index: 1;
   }
-  .text-partners {
+  &__text-partners {
     font-size: 27px;
     padding-top: 20px;
     margin-left: 15%;
     width: 300px;
     z-index: 1;
   }
-  .table__item {
+  &__item {
     width: 60%;
     height: 300px;
-    margin: 5% auto 0% auto;
+    margin: 1% auto 0% auto;
     z-index: 1;
-    .table-img {
+    &-img {
       display: flex;
       flex-direction: row;
       height: 100%;
-      &__item {
+      &-items {
         width: 20%;
         height: 50%;
         border: 1px solid lightgrey;
@@ -42,7 +42,7 @@
         -o-filter: grayscale(100%);
         filter: grayscale(100%);
         filter: gray; /* IE 6-9 */
-        .container-img-table {
+        &-container {
           width: 80px;
           height: 70px;
           margin: auto;
@@ -51,13 +51,13 @@
             height: 90%;
             margin: 45% auto 0% auto;
           }
-          .link_2 {
+          .link-modify {
             height: 40%;
             margin: 80% auto 0% auto;
           }
         }
       }
-      &__item:hover {
+      &-items:hover {
         -webkit-filter: none;
         -moz-filter: none;
         -ms-filter: none;
@@ -66,7 +66,7 @@
         filter: none; /* IE 6-9 */
       }
     }
-    .table-img:nth-child(2) {
+    &-img-mod {
       display: flex;
       flex-direction: row;
       height: 100%;
@@ -76,7 +76,7 @@
   .slider-container {
     width: 200px;
     height: 50px;
-    margin: 0px auto 100px auto;
+    margin: 0px auto 0px auto;
     display: flex;
     align-items: flex-start;
     flex-wrap: nowrap;
@@ -86,20 +86,20 @@
       height: 30px;
       background-color: lightgrey;
       border-radius: 50%;
-      margin-top: -65px;
+      margin-top: -50px;
     }
     &__button-text-change,
     &__button-text {
       width: 30px;
       height: 20px;
-      margin-top: -60px;
+      margin-top: -45px;
     }
     &__next {
       width: 30px;
       height: 30px;
       background-color: lightgrey;
       border-radius: 50%;
-      margin-top: -65px;
+      margin-top: -50px;
     }
     &__next:hover,
     &__back:hover {
