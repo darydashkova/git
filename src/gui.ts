@@ -32,7 +32,7 @@ export function guiInit() {
         thirdlide.classList.add('slider__container-second');
       } else {
       }
-
+      summ++;
       if (summ == 2) {
         nextSlider.classList.remove('slider__container-img');
         nextSlider.classList.add('addopacity');
@@ -51,7 +51,7 @@ export function guiInit() {
         thirdlide.classList.add('slider__container-second');
         summ = 1;
       }
-      summ++;
+
     });
   }
 }
