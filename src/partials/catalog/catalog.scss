@@ -19,6 +19,11 @@
     margin: 40px auto 0px auto;
     display: flex;
     flex-direction: column;
+    &-corn{
+      width: 300px;
+      height: 380px;
+      margin: -30% 0% 0% 80%;
+    }
     &-section {
       width: 100%;
       height: 25%;
@@ -26,6 +31,7 @@
       align-items: flex-start;
       flex-wrap: nowrap;
       color: green;
+      font-weight: bold;
       &-img {
         width: 40px;
         height: 40px;
@@ -34,7 +40,7 @@
       .flexbox-table {
       }
       &-item {
-        width: 150px;
+        width: 170px;
         font-size: 20px;
       }
       &-item,
@@ -46,11 +52,12 @@
         display: flex;
         align-items: flex-start;
         flex-wrap: wrap;
-          margin: -200px 0px 0px 40%;
+        margin: 80px 0px 0px 50px;
         &-text {
           margin-left: 50px;
-          font-size: 23px;
+          font-size: 21px;
           color: grey; 
+          font-weight: lighter;
         }
         &-text:hover {
           color: green;
@@ -65,8 +72,8 @@
         width: 800px;
       }
     }
-    .catalog__table-section:hover {
-      background-color: lightgrey;
+    &-section:hover {
+      background-color:  #FAFAFA;
     }
   }
 }
