@@ -4,20 +4,63 @@
   background-image: url("./src/assets/img/news.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  display: flex;
-  justify-content: space-around;
+  color: white;
   &__company-little {
     color: white;
     font-size: 15px;
-    text-align: center;
+    padding-top: 30px;
     height: 50px;
-    width: 100%;
+    text-align: center;
   }
-  &__company-big{
+
+  &__company-big {
     color: white;
-    font-size: 15px;
+    font-size: 30px;
     text-align: center;
-    height: 50px;
     width: 100%;
+    margin-top: 20px;
+  }
+  &__container {
+    margin: 50px auto 0px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+
+    &-text {
+      width: 40%;
+      height: 150px;
+      &-data {
+      }
+      &-big {
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+      &-little {
+        font-size: 16px;
+      }
+    }
+    &-text-groups {
+      border-left: 1px solid white;
+      height: 200px;
+
+      &-information {
+        padding: 10px 0px 0px 40px;
+        font-size: 24px;
+
+      }
+      &-data-top {
+        border-top: 1px solid white;
+        padding: 40px 0px 0px 40px;
+        padding-top: 50px;
+      }
+      &-data {
+padding: 40px 0px 0px 40px;
+
+      }
+    }
+  }
+  &__text {
+    margin: 200px auto 0px auto;
   }
 }
