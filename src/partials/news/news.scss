@@ -6,17 +6,13 @@
   background-size: 100%;
   display: flex;
   justify-content: space-around;
-  .dsfgs {
-    width: 100%;
-    margin: 0px auto 0px auto;
-    height: 100px;
     .news__company-little {
       color: white;
       font-size: 15px;
       margin: 0px;
       height: 50px;
+      width: 100%;
     }
-
     .news__company-big {
       color: white;
       font-size: 27px;
@@ -24,8 +20,6 @@
       width: 500px;
       padding: 0px;
     }
-  }
-
   &__text {
     margin: 200px auto 0px auto;
   }
