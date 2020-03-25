@@ -38,22 +38,28 @@
     margin: -50px 0px 0px 90%;
   }
   &__links {
-    width: 300px;
-    height: 200px;
-    border: 1px solid white;
+    width: 70px;
+    height: 120px;
+    margin-left: 92%;
+    margin-top: 100px;
     &-first {
-     
-
-      img{
-      width: 40px;
-      height:40px;
-      background-color:rgba($color: #333333, $alpha: 0.5) ;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 53px;
+      height: 53px;
       border-radius: 50%;
-      }
+      background-color: rgba(51, 51, 51, 0.6);
     }
     &-second {
-      background-image: url("./src/assets/img/instagram.png");
-      background-size: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 53px;
+      height: 53px;
+      margin-top: 30px;
+      border-radius: 50%;
+      background-color: rgba(51, 51, 51, 0.6);
     }
   }
   .container-tractor {
@@ -63,7 +69,7 @@
     display: flex;
     justify-content: space-around;
     height: 100px;
-    margin-top: 150px;
+    margin-top: 50px;
     &__text {
       width: 25%;
 
