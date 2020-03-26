@@ -62,18 +62,26 @@
       font-weight: 300;
       font-size: 14px;
       line-height: 20px;
-      color: #333333;
+      color: #90a4ae;
     }
 
     &_active {
       border-bottom: 1px solid #333333;
       height: calc(100% + 1px);
+
+      .header__language-link {
+        color: #333333;
+      }
     }
   }
 
   &__language:hover {
     border-bottom: 1px solid #333333;
     height: calc(100% + 1px);
+
+    .header__language-link {
+      color: #333333;
+    }
   }
 
   &__language + &__language {
@@ -111,11 +119,12 @@
 
     &-request {
       margin-top: 5px;
-      font-family: DendaNewC;
+      font-family: Dendanewc;
       font-style: normal;
       font-weight: normal;
       font-size: 12px;
       line-height: 16px;
+      font-weight: bold;
       color: #399951;
     }
   }

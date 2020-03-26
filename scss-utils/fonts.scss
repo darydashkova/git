@@ -44,3 +44,13 @@
     font-style: normal;
 
   }
+
+  @font-face {
+    font-family: 'DendaNewC';
+    src: url("./src/assets/fonts/denda/Dendanewc.woff2") format("woff2"),
+    url("./src/assets/fonts/denda/Dendanewc.ttf") format("ttf"),
+   url("./src/assets/fonts/denda/Dendanewc.woff") format("woff");
+    font-weight: 300;
+    font-weight: bold;
+
+  }

@@ -12,12 +12,10 @@ html(lang='ru')
     .main__container
       - if (layout.needHeader)
         include ../header/header.pug
-
+        
       main
         div(class=['page', layout.pageClass])
           block content
-
-
 
       - if (layout.needFooter)
         include ../footer/footer.pug
