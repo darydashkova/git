@@ -1,8 +1,10 @@
 import * as $ from 'jquery';
 // import '../node_modules/select2/dist/js/select2.full';
 const submit = document.querySelector('.slider-container__back');
-const ru = document.querySelector('.header__container-flex-lang-ru');
-const eng = document.querySelector('.header__container-flex-lang-eng');
+const ru = document.querySelector('.header__language');
+const eng = document.querySelector('.header__languages');
+const second = document.querySelector('.header__language-link-second');
+const first = document.querySelector('.header__language-link-first');
 let show = true;
 export function guiInit() {
   // Проверка страницы
@@ -20,12 +22,12 @@ export function guiInit() {
       show = !show;
     });
     eng.addEventListener('click', function () {
-        eng.classList.add('header__container-flex-lang-active');
-        ru.classList.remove('header__container-flex-lang-active');
+        eng.classList.add('header__language_active');
+        ru.classList.remove('header__language_active');
     });
     ru.addEventListener('click', function () {
-      ru.classList.add('header__container-flex-lang-active');
-      eng.classList.remove('header__container-flex-lang-active');
+      ru.classList.add('header__language_active');
+      eng.classList.remove('header__language_active');
   });
   }
 }

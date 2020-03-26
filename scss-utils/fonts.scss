@@ -35,3 +35,12 @@
 //     url("./src/assets/fonts/Core Sans/CoreSansDS65Heavy.ttf") format("ttf"),
 //     url("./src/assets/fonts/Core Sans/CoreSansDS65Heavy.woff") format("woff");
 // }
+@font-face {
+    font-family: 'Denda New';
+    src: url("./src/assets/fonts/denda/DendaNewLightC-Italic.woff2") format("woff2"),
+    url("./src/assets/fonts/denda/DendaNewLightC-Italic.ttf") format("ttf"),
+   url("./src/assets/fonts/denda/DendaNewLightC-Italic.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+
+  }
