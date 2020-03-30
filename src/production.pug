@@ -8,4 +8,27 @@ block variables
   - }
   
 block content
-  //- Контент
+  .servises
+    .servises__about 
+      .servises__about-first Главная
+      .servises__about-second  / О проекте
+    .servises__agro Агроуслуги
+    .servises__img
+      img(src="./assets/img/servises-1.png", alt="")
+    .servises__container
+      .servises__container-items
+        .servises__container-items-item 
+          .servises__container-items-item-close Закрытый клуб
+          .servises__container-items-item-text  Мы предлагаем широкий ассортимент <br>и комплексные профессиональные <br>решения
+        .servises__container-items-item 
+          .servises__container-items-item-close Производственный опыт
+          .servises__container-items-item-text  Нашими партнерами за три последних года <br>стали 3 500 предприятий<br> агропромышленного комплекса
+        .servises__container-items-item.servises__container-items-item-contain
+          .servises__container-items-item-contain-button
+            button Стать клиентом
+  include ./partials/quote/quote.pug
+  include ./partials/servises-wrap/wrap.pug
+
+    
+
+    

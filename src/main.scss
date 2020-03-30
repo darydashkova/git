@@ -1,80 +1,82 @@
-
-      .agro__container {
-        max-width: 1045px;
-        margin: auto;
-        &-fes {
-          width: 50%;
-          font-size: 12px;
-          margin-top: 4%;
-          color: grey;
-        }
-        &-federalny {
-          height: 150px;
-          font-weight: 300;
-          font-size: 42px;
-          line-height: 54px;
-          width: 100%;
-          margin: 0.5% auto 0% auto;
-        }
-      }
-  .tractor-img {
-    background-image: url("./src/assets/img/tractop.png");
+.agro__container {
+  max-width: 1045px;
+  margin: auto;
+  &-fes {
+    width: 50%;
+    font-size: 12px;
+    margin-top: 4%;
+    color: grey;
+  }
+  &-federalny {
+    height: 150px;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 54px;
     width: 100%;
-    position: absolute;
-    height: 480px;
-    max-height: 550px;
-    margin-top: 50px;
-    background-size: 100% 100%;
-    &__list {
-      background-image: url("./src/assets/img/tractor-button.png");
-      background-repeat: no-repeat;
-      width: 80px;
-      height: 100px;
-      margin-left: 80%;
-      margin: -50px 0px 0px 90%;
-    }
-    &__links {
-      width: 70px;
-      height: 120px;
-      margin-left: 92%;
-      margin-top: 100px;
-      &-first {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 53px;
-        height: 53px;
-        border-radius: 50%;
-        background-color: rgba(51, 51, 51, 0.6);
-      }
-      &-second {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 53px;
-        height: 53px;
-        margin-top: 30px;
-        border-radius: 50%;
-        background-color: rgba(51, 51, 51, 0.6);
-      }
-    }
-    .container-tractor {
-      width: 90%;
-      margin: auto;
-      color: white;
+    margin: 0.5% auto 0% auto;
+  }
+}
+.tractor-img {
+  background-image: url("./src/assets/img/tractop.png");
+  width: 100%;
+  position: absolute;
+  height: 480px;
+  max-height: 550px;
+  margin-top: 50px;
+  background-size: 100% 100%;
+  &__list {
+    background-image: url("./src/assets/img/tractor-button.png");
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 100px;
+    margin-left: 80%;
+    margin: -50px 0px 0px 90%;
+  }
+  &__links {
+    width: 70px;
+    height: 120px;
+    margin-left: 90.5%;
+    margin-top: 100px;
+    &-first {
       display: flex;
-      justify-content: space-around;
-      height: 100px;
-      margin-top: 50px;
-      &__text {
-        width: 25%;
-  
-        font-size: 35px;
-        .little-text-tractor {
-          width: 70%;
-          font-size: 20px;
-        }
+      align-items: center;
+      justify-content: center;
+      width: 53px;
+      height: 53px;
+      border-radius: 50%;
+      background-color: rgba(51, 51, 51, 0.6);
+    }
+    &-second {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 53px;
+      height: 53px;
+      margin-top: 30px;
+      border-radius: 50%;
+      background-color: rgba(51, 51, 51, 0.6);
+    }
+  }
+  .container-tractor {
+    width: 90%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family: DendaNewLightC;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 32px;
+    height: 100px;
+    margin-top: 50px;
+    &__text {
+      width: 25%;
+      font-size: 35px;
+      .little-text-tractor {
+        width: 70%;
+        font-size: 20px;
       }
     }
   }
-  
+}
