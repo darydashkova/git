@@ -36,21 +36,22 @@
 //     url("./src/assets/fonts/Core Sans/CoreSansDS65Heavy.woff") format("woff");
 // }
 @font-face {
-    font-family: 'Denda New';
-    src: url("./src/assets/fonts/denda/DendaNewLightC-Italic.woff2") format("woff2"),
+  font-family: "DendaNewLigntC";
+  src: url("./src/assets/fonts/denda/DendaNewLightC-Italic.woff2") format("woff2"),
     url("./src/assets/fonts/denda/DendaNewLightC-Italic.ttf") format("ttf"),
-   url("./src/assets/fonts/denda/DendaNewLightC-Italic.woff") format("woff");
-    font-weight: 300;
-    font-style: normal;
+    url("./src/assets/fonts/denda/DendaNewLightC-Italic.woff") format("woff");
+}
 
-  }
+@font-face {
+  font-family: "Dendanew";
+  src: url("./src/assets/fonts/denda/Dendanew.woff2") format("woff2"),
+    url("./src/assets/fonts/denda/Dendanew.ttf") format("ttf"),
+    url("./src/assets/fonts/denda/Dendanew.woff") format("woff");
+}
 
-  @font-face {
-    font-family: 'DendaNewC';
-    src: url("./src/assets/fonts/denda/Dendanewc.woff2") format("woff2"),
-    url("./src/assets/fonts/denda/Dendanewc.ttf") format("ttf"),
-   url("./src/assets/fonts/denda/Dendanewc.woff") format("woff");
-    font-weight: 300;
-    font-weight: bold;
-
-  }
+@font-face {
+  font-family: "MuseoSansCyrl";
+  src: url("./src/assets/fonts/MuseoSans/MuseoSansCyrl.woff2") format("woff2"),
+    url("./src/assets/fonts/MuseoSans/MuseoSansCyrl.ttf") format("ttf"),
+    url("./src/assets/fonts/MuseoSans/MuseoSansCyrl.woff") format("woff");
+}

@@ -27,10 +27,8 @@
       align-items: center;
 
       &-link {
-        font-family: DendaNewLightC;
         font-style: normal;
         font-weight: 300;
-        font-size: 13px;
         line-height: 20px;
         color: #333333;
       }
@@ -91,7 +89,7 @@
   &__address {
     &-city {
       display: flex;
-
+      align-items: center;
       &-text {
         font-family: DendaNewLightC;
         font-style: normal;
@@ -119,7 +117,7 @@
 
     &-request {
       margin-top: 5px;
-      font-family: Dendanewc;
+      font-family: Dendanew;
       font-style: normal;
       font-weight: normal;
       font-size: 12px;
