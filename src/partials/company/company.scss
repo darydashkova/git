@@ -1,10 +1,10 @@
 .company {
   width: 100%;
-  height: 700px;
+  height: 850px;
   margin-top: 600px;
 
   .company-item {
-    width: 70%;  
+    width: 70%;
     margin: 4% auto 0% auto;
     max-width: 1045px;
   }
@@ -15,7 +15,7 @@
       max-width: 1045px;
       display: flex;
       justify-content: space-around;
-      .fes-agro-today {   
+      .fes-agro-today {
         width: 50%;
         .fes-agro-button {
           width: 187px;
@@ -24,7 +24,7 @@
           border-radius: 4px;
           margin-top: 8%;
           font-family: Dendanew;
-          color: #FFFFFF;;
+          color: #ffffff;
         }
       }
       .lit-fes-agro {
@@ -35,25 +35,34 @@
   }
 
   &__image {
-    width: 70%;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-    margin: auto;
-    &-first-img {
-      height: 300px;
-    }
-    &-second-img {
-      height: 300px;
-      margin-top: 15%;
-    }
-    &-third-img {
-      height: 300px;
-      margin-top: 5%;
-    }
-    .list-img {
-      width: 15%;
-      height: 20%;
-      margin-top: 300px;
+    justify-content: flex-end;
+    &-container {
+      width: 80%;
+      display: flex;
+      justify-content: space-around;
+      &-first-img {
+        width: 267px;
+        height: 360px;
+      }
+      &-second-img {
+        width: 280px;
+        height: 460px;
+        margin-top: 15%;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      &-third-img {
+        width: 267px;
+        height: 360px;
+        margin-top: 5%;
+      }
+      .list-img {
+        width: 240.11px;
+height: 299px;
+        margin-top: 300px;
+      }
     }
   }
 }

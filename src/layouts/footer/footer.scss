@@ -45,7 +45,7 @@
                width: 100%;
           margin-top: 40px;
        
-          color: #fafafa;
+          color: #FAFAFA;
           }
         }
 
@@ -57,7 +57,7 @@
       &-item:active, /* активная/посещенная ссылка */
       &-item:hover,  /* при наведении */
       &-item {
-        color: white;
+        color: #FAFAFA;
       }
     }
     &-post {
@@ -69,10 +69,12 @@
         width: 136px;
         height: 40px;
         font-family: DendaNewLightC;
+        color: #FAFAFA;
       }
       &-email {
         font-family: DendaNewLightC;
         margin-top: 20px;
+        color: #FAFAFA;
       }
       &-image {
         margin-top: 30px;
@@ -91,6 +93,7 @@
       height: 26px;
       margin-top: 60px;
       &-number {
+        color: #FAFAFA;
         font-size: 25px;
         font-family: DendaNewLightC;
       }
@@ -102,6 +105,7 @@
         border: 1px solid #4d4d4d;
         box-sizing: border-box;
         border-radius: 4px;
+        color: white;
       }
     }
   }
@@ -122,25 +126,29 @@
         flex-direction: column;
         height: 100%;
         margin-top: 36px;
+        height: 50px;
         &-first {
           width: 227px;
           font-family: DendaNewLightC;
           font-size: 13px;
+          color: #FAFAFA;
         }
         &-second {
           width: 228px;
           font-family: DendaNewLightC;
           font-size: 12px;
           height: 20px;
+          color: white;
         }
-        &-text-grey {
-          width: 560px;
+        &-text-grey {min-width: 285px;
+          max-width: 560px;
           font-family: MuseoSansCyrl;
           font-style: normal;
           font-weight: 300;
           font-size: 12px;
           line-height: 14px;
           color: #666666;
+          
         }
       }
     }

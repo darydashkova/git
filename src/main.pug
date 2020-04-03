@@ -8,8 +8,9 @@ block variables
   
 block content
   .agro__container
-    .agro__container-fes.sections ФЭС АГРО
-    .agro__container-federalny Мы- федеральный дестрибутор <br>средств защиты растений, семян  и микроудобрений
+    .agro__container-box
+      .agro__container-box-fes.sections ФЭС АГРО
+      .agro__container-box-federalny Мы- федеральный дестрибутор <br>средств защиты растений, семян  и микроудобрений
   .tractor-img
     button.tractor-img__list
     .tractor-img__links
@@ -30,13 +31,13 @@ block content
         </svg>
     .container-tractor
       .container-tractor__text 23 года
-        .little-text-tractor в агробизнесе
+        .container-tractor__text-first в агробизнесе
       .container-tractor__text 2400+
-        .little-text-tractor клиентов, с которыми мы<br> активно сотрудничаем
+        .container-tractor__text-second клиентов, с которыми мы<br> активно сотрудничаем
       .container-tractor__text 33 города
-        .little-text-tractor России, в которых открыты <br>наши офисы
-      .container-tractor__text 329 участников
-        .little-text-tractor в команде ФЭС АГРО
+        .container-tractor__text-third России, в которых открыты <br>наши офисы
+      .container-tractor__text.container-tractor__max 329 участников
+        .container-tractor__text-fourth в команде ФЭС АГРО
   include ./partials/company/company.pug
   include ./partials/table/table.pug
   include ./partials/catalog/catalog.pug

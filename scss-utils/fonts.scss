@@ -36,14 +36,18 @@
 //     url("./src/assets/fonts/Core Sans/CoreSansDS65Heavy.woff") format("woff");
 // }
 @font-face {
-  font-family: "DendaNewLigntC";
-  src: url("./src/assets/fonts/denda/DendaNewLightC-Italic.woff2") format("woff2"),
-    url("./src/assets/fonts/denda/DendaNewLightC-Italic.ttf") format("ttf"),
-    url("./src/assets/fonts/denda/DendaNewLightC-Italic.woff") format("woff");
+  font-family: "DendaNewLightC";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./src/assets/fonts/denda/DendaNewLightC.woff2") format("woff2"),
+    url("./src/assets/fonts/denda/DendaNewLightC.ttf") format("ttf"),
+    url("./src/assets/fonts/denda/DendaNewLightC.woff") format("woff");
 }
 
 @font-face {
   font-family: "Dendanew";
+  font-style: normal;
+  font-weight: normal;
   src: url("./src/assets/fonts/denda/Dendanew.woff2") format("woff2"),
     url("./src/assets/fonts/denda/Dendanew.ttf") format("ttf"),
     url("./src/assets/fonts/denda/Dendanew.woff") format("woff");
