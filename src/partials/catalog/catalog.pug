@@ -1,16 +1,17 @@
 .catalog
-    .catalog__item.sections КАТАЛОГ
-    .catalog__item-2 
-        span Наша продукция
+    .catalog__container
+        .catalog__container-items
+            .catalog__container-items-item.sections КАТАЛОГ
+            span.catalog__container-items-item-second Наша продукция
     .catalog__table 
         .catalog__table-items
             .catalog__table-items-section 
                 img(src="../src/assets/img/catalog1.png", alt="").flexbox-table.catalog__table-items-section-img 
                 .flexbox-table.catalog__table-items-section-item Средства защиты растений
                 .catalog__table-items-section-link
-                    a(href="").catalog__table-items-section-link-text Гербициды
-                    a(href="").catalog__table-items-section-link-text Инсектициды
-                    a(href="").catalog__table-items-section-link-text Нематициды
+                    a(href="").catalog__table-items-section-link-text.link-general Гербициды
+                    a(href="").catalog__table-items-section-link-text.link-general Инсектициды
+                    a(href="").catalog__table-items-section-link-text.link-general Нематициды
                     a(href="").catalog__table-items-section-link-text Фунгициды
                     a(href="").catalog__table-items-section-link-text Акарициды
                     a(href="").catalog__table-items-section-link-text Родентициды

@@ -5,7 +5,7 @@
   color: white;
   &-line {
     width: 100%;
-    border-bottom: 1px solid #4D4D4D;;
+    border-bottom: 1px solid #4d4d4d;
     height: 321px;
     display: flex;
     justify-content: center;
@@ -23,29 +23,28 @@
       margin-top: 60px;
     }
     &-links {
-      width: 40%;
-      font-size: 12px;
+      width: 35%;
       display: flex;
       flex-direction: row;
       &-margin {
-        margin-left: 50px;
+        margin-left: 90px;
       }
       &-column {
         display: flex;
         flex-direction: column;
-        margin-top: 60px;
+        margin-top: 50px;
         width: 91px;
-        height: 200px;
+        height: 220px;
         margin-right: 100px;
         &-item {
           width: 91px;
-       display: flex;
-       align-items: center;
-          &-link{
-               width: 100%;
-          margin-top: 40px;
-       
-          color: #FAFAFA;
+          display: flex;
+          align-items: center;
+          margin-top: 8px;
+          &-link {
+            width: 100%;
+            margin-top: 40px;
+            color: #fafafa;
           }
         }
 
@@ -57,24 +56,27 @@
       &-item:active, /* активная/посещенная ссылка */
       &-item:hover,  /* при наведении */
       &-item {
-        color: #FAFAFA;
+        color: #fafafa;
       }
     }
     &-post {
-      width: 13%;
+      width: 136px;
       height: 40%;
       font-size: 13px;
       margin-top: 60px;
+      margin-right: 70px;
       &-adres {
         width: 136px;
         height: 40px;
         font-family: DendaNewLightC;
-        color: #FAFAFA;
+        color: #fafafa;
+        font-size: 14px;
+        line-height: 20px;
       }
       &-email {
         font-family: DendaNewLightC;
         margin-top: 20px;
-        color: #FAFAFA;
+        color: #fafafa;
       }
       &-image {
         margin-top: 30px;
@@ -93,7 +95,7 @@
       height: 26px;
       margin-top: 60px;
       &-number {
-        color: #FAFAFA;
+        color: #fafafa;
         font-size: 25px;
         font-family: DendaNewLightC;
       }
@@ -101,11 +103,10 @@
         margin-top: 20px;
         width: 197px;
         height: 56px;
-        font-family: Dendanew;
         border: 1px solid #4d4d4d;
         box-sizing: border-box;
         border-radius: 4px;
-        color: white;
+        line-height: 20px;
       }
     }
   }
@@ -114,24 +115,24 @@
     height: 137px;
     display: flex;
     justify-content: center;
+    align-items: center;
     &-container {
       display: flex;
-      width: 82%;
+      width: 100%;
       max-width: 1200px;
       justify-content: space-between;
       height: 100%;
-      
+
       &-item {
         display: flex;
         flex-direction: column;
-        height: 100%;
         margin-top: 36px;
-        height: 50px;
+        height: 100px;
         &-first {
           width: 227px;
           font-family: DendaNewLightC;
           font-size: 13px;
-          color: #FAFAFA;
+          color: #fafafa;
         }
         &-second {
           width: 228px;
@@ -139,16 +140,16 @@
           font-size: 12px;
           height: 20px;
           color: white;
+          font-size: 12px;
         }
-        &-text-grey {min-width: 285px;
-          max-width: 560px;
+        &-text-grey {
+          max-width: 660px;
           font-family: MuseoSansCyrl;
           font-style: normal;
           font-weight: 300;
           font-size: 12px;
           line-height: 14px;
           color: #666666;
-          
         }
       }
     }
