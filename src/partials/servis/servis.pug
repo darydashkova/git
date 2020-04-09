@@ -1,14 +1,4 @@
-extends ./layouts/main-layout/main-layout.pug
-block variables
-  - const layout = {
-  -   needHeader: true,
-  -   needFooter: true,
-  -   needCompany: true,
-  -   pageClass: 'servises-page'
-  - }
-  
-block content
-  .servises
+.servises
     .servises__about 
       .servises__about-first Главная
       .servises__about-second  / О проекте
@@ -26,9 +16,3 @@ block content
         .servises__container-items-item.servises__container-items-item-contain
           .servises__container-items-item-contain-button
             button Стать клиентом
-  include ./partials/quote/quote.pug
-  include ./partials/servises-wrap/wrap.pug
-
-    
-
-    

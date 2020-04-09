@@ -1,0 +1,12 @@
+extends ./layouts/main-layout/main-layout.pug
+block variables
+  - const layout = {
+  -   needHeader: true,
+  -   needFooter: true,
+  -   pageClass: 'main-page'
+  - }
+
+block content
+    include ./partials/servis/servis.pug
+    include ./partials/quote/quote.pug
+    include ./components/servises-wrap/wrap.pug
